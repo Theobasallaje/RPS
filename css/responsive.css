@@ -264,6 +264,7 @@
 	#rs-header .btm-toolbar,
 	.full-width-header #rs-header .menu-area{
 		background: #000 !important;
+		padding: 14px;
 	}
 	#rs-header .menu-area .logo-area{
 		text-align: center;

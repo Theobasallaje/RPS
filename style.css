@@ -3296,6 +3296,7 @@ h3.title-border:after {
 }
 .footer-bottom .copyright p {
   margin-bottom: 0;
+  width: max-content;
 }
 .footer-bottom .copyright a {
   color: #fff;
@@ -3532,7 +3533,7 @@ h3.title-border:after {
     19. Counter up
   ---------------------------------------*/
 .counter-top-area {
-  background: url(images/about/counter-up.jpg) no-repeat scroll 0 0;
+  background: url(images/about/1.jpg) no-repeat scroll 0 0;
   background-attachment: fixed;
   transition: all 0.3s ease 0s;
   background-size: cover;
@@ -3542,7 +3543,7 @@ h3.title-border:after {
   position: relative;
 }
 .counter-top-area.secondary-bg {
-  background: url(images/about/counter-up2.jpg) no-repeat scroll 0 0;
+  background: url(images/about/1.jpg) no-repeat scroll 0 0;
 }
 .counter-top-area .overlay {
   position: absolute;
