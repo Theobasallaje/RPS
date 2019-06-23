@@ -87,9 +87,10 @@ a:hover {
   font-weight: 400;
 }
 ul {
-  list-style: outside none none;
+  /* list-style: outside none none; */
   margin: 0;
   padding: 0;
+  margin-left: 38px;
 }
 .clear {
   clear: both;
@@ -1474,6 +1475,7 @@ h3.title-border:after {
 }
 .rs-services.drak-color .services-list .single-services:nth-child(2n+1) {
   background: #0f0f0f;
+  height: 196px;
 }
 .rs-services.drak-color .services-list .single-services:nth-child(2n) {
   background: #181818;
