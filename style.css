@@ -1309,8 +1309,9 @@ a.sl-btn:hover i {
   margin-top: 18px !important;
 }
 .rs-about .panel-heading.active .accordion-toggle:after {
-  font-family: 'FontAwesome';
-  content: "\f0d7";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f077";
   float: none;
   color: #252525;
   display: block;
@@ -1321,8 +1322,9 @@ a.sl-btn:hover i {
   top: 0;
 }
 .rs-about .panel-heading .accordion-toggle:after {
-  font-family: 'FontAwesome';
-  content: "\f0da";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f078";
   float: none;
   color: #fff;
   display: block;
@@ -1479,6 +1481,7 @@ h3.title-border:after {
 }
 .rs-services.drak-color .services-list .single-services:nth-child(2n) {
   background: #181818;
+  height: 196px;
 }
 .rs-services.drak-color .services-list .single-services h3 {
   color: #ffffff;
@@ -2547,6 +2550,7 @@ h3.title-border:after {
   text-align: center;
   position: relative;
   transition: all 0.7s ease 0s;
+  height: 287px;
 }
 .rs-testimonial #testimonial-slider10 .testimonial:hover {
   border-color: #286AA5;
@@ -2587,7 +2591,7 @@ h3.title-border:after {
 .rs-testimonial #testimonial-slider10 .testimonial .title {
   font-size: 16px;
   font-weight: 700;
-  color: #286AA5;
+  color: white;
   text-transform: uppercase;
   margin: 0 0 10px 0;
 }
