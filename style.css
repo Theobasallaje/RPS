@@ -1518,11 +1518,11 @@ h3.title-border:after {
 }
 .rs-services.drak-color .services-list .single-services:nth-child(2n+1) {
   background: #0f0f0f;
-  height: 196px;
+  height: 225px;
 }
 .rs-services.drak-color .services-list .single-services:nth-child(2n) {
   background: #181818;
-  height: 196px;
+  height: 225px;
 }
 .rs-services.drak-color .services-list .single-services h3 {
   color: #ffffff;
