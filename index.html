@@ -64,12 +64,12 @@
 	<div class="full-width-header">
 		<header id="rs-header">
 			<!-- Header Menu Start -->
-			<div class="menu-area menu-sticky1">
+			<div class="menu-area">
 				<div class="container btm-toolbar">
 					<div class="row">
-						<div class="col-sm-4">
-							<div class="toolbar-contact">
-								<i class="fa fa-phone"></i><a href="tel:+(+088)589-8745">214-304-7198</a>
+						<div id="phoneIconDiv" class="col-sm-4">
+							<div id="phoneIcon" class="toolbar-contact">
+								<span ><i class="fa fa-phone"></i><a href="tel:+(+088)589-8745">214-304-7198</a></span>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-12">
@@ -77,12 +77,14 @@
 								<a href="index.html"><img src="images/logo.png" alt="logo"></a>
 							</div>
 						</div>
-						<div class="col-sm-4">
+						<div id="socialIconsDiv" class="col-sm-4">
 							<div class="toolbar-share-icon">
 								<ul>
-									<li><a target="_blank" href="https://www.facebook.com/RestorationPlumbingServices/"><i class="fab fa-facebook-square"></i></a></li>
-									<li><a target="_blank" href="#"><i class="fab fa-google"></i></a></li>
-									<li><a href="mailto:plumbing@rps-dfw.com"><i class="fa fa-envelope"></i></a></li>
+									<div>
+										<li id="facebookNoPadding" class="contactIcons"><a target="_blank" href="https://www.facebook.com/RestorationPlumbingServices/"><i class="fab fa-facebook-square"></i></a></li>
+										<li class="contactIcons"><a target="_blank" href="#"><i class="fab fa-google"></i></a></li>
+										<li class="contactIcons"><a href="mailto:plumbing@rps-dfw.com"><i class="fa fa-envelope"></i></a></li>
+									</div>
 								</ul>
 							</div>
 						</div>
