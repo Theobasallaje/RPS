@@ -22,7 +22,6 @@
 07. Services
 08. Services Pages
 10. Team Member
-11. Team details
 13. Testimonial
 15. Contact Page
 16. Footer
@@ -242,10 +241,10 @@ ul {
 .single-member-area figure .overly-border:after,
 .rs-blog .blog-item.slick-current .overly-border:before,
 .rs-blog .blog-item.slick-current .overly-border:after,
-.single-member-area:hover .overly-border:before,
-.single-member-area:hover .overly-border:after,
-.team-content:hover .overly-border:before,
-.team-content:hover .overly-border:after,
+/* .single-member-area:hover .overly-border:before,
+.single-member-area:hover .overly-border:after, */
+.team-content .overly-border:before,
+.team-content .overly-border:after,
 .blog-content:hover .overly-border:before,
 .blog-content:hover .overly-border:after,
 .project-content:hover .overly-border:before,
@@ -746,7 +745,7 @@ ul {
     justify-content: center;
     /* font size on line 436 in responisve.css*/
   }
-  ul {
+  .toolbar-share-icon ul {
     display: flex;
     justify-content: center;
   }
@@ -1547,6 +1546,9 @@ h3.title-border:after {
   color: #101010 !important;
 }
 
+.panel-body ul {
+  padding-left: 28px;
+}
 /* -----------------------
     10. Team Member
 --------------------------*/
@@ -1560,9 +1562,9 @@ h3.title-border:after {
   position: relative;
   overflow: hidden;
 }
-.rs-team .team-item .team-img {
+/* .rs-team .team-item .team-img {
   position: relative;
-}
+} */
 .rs-team .team-item .team-img .normal-text {
   position: absolute;
   left: -57px;
@@ -1625,9 +1627,9 @@ h3.title-border:after {
   text-transform: capitalize;
   font-weight: 700;
 }
-.rs-team .team-item .team-name a:hover {
+/* .rs-team .team-item .team-name a:hover {
   color: #286AA5;
-}
+} */
 .rs-team .team-item .team-name a,
 .rs-team .team-item .team-title {
   position: relative;
@@ -1699,6 +1701,20 @@ h3.title-border:after {
 }
 .rs-team-pages .default-pagination {
   padding-top: 10px;
+}
+
+.masterPlumberInfo {
+  background-color: #252525;
+  height: 350px;
+  width: 350px;
+  text-align: center;
+}
+
+.masterPlumberInfo .display-table {
+  border: 20px solid #252525;
+  box-shadow: inset 0px 0px 0px 10px #286AA5;
+  /* height: 300px;
+  width: 300px */
 }
 
 /* -----------------------
