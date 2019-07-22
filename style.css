@@ -1467,6 +1467,10 @@ h3.title-border:after {
 .history-details p:last-child {
   margin-bottom: 0;
 }
+
+#aboutUsParagraph {
+  padding-bottom: 54px;
+}
 /* ----------------------------------
     07. Services
 -------------------------------------*/
@@ -1518,11 +1522,11 @@ h3.title-border:after {
 }
 .rs-services.drak-color .services-list .single-services:nth-child(2n+1) {
   background: #0f0f0f;
-  height: 196px;
+  height: 225px;
 }
 .rs-services.drak-color .services-list .single-services:nth-child(2n) {
   background: #181818;
-  height: 196px;
+  height: 225px;
 }
 .rs-services.drak-color .services-list .single-services h3 {
   color: #ffffff;
